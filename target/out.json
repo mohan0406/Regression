@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-02T11:50:37.475Z",
+        "line": 4,
+        "name": "verify login",
+        "description": "",
+        "id": "validate-login-func;verify-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7956361393,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in fb page",
+            "match": {
+              "location": "StepDefinition.user_is_in_fb_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1301729748,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username and passwpord and click login button.",
+            "match": {
+              "location": "StepDefinition.user_enters_username_and_passwpord_and_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1197576,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user logged in",
+            "match": {
+              "location": "StepDefinition.user_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate login func",
+    "description": "",
+    "id": "validate-login-func",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
